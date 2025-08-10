@@ -1,6 +1,11 @@
+##  Overview
+Applies unsupervised machine learning to segment customers based on demographics and spending behavior.  
+Compares multiple clustering algorithms and evaluates their performance.  
+Approach is adaptable for **grouping schools, communities, or beneficiaries** in development programs.
 
+---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Languages:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
 - **Algorithms:** KMeans, Hierarchical Clustering, Gaussian Mixture Model (GMM), BIRCH  
@@ -8,7 +13,7 @@
 
 ---
 
-## 🔍 Steps
+## Steps
 1. Data cleaning and encoding categorical variables  
 2. Feature scaling with StandardScaler  
 3. PCA transformation to 2D space  
@@ -19,7 +24,7 @@
 
 ---
 
-## 📊 Results
+## Results
 | Algorithm       | Silhouette Score | Davies-Bouldin Index |
 |-----------------|------------------|----------------------|
 | KMeans          | 0.272            | 1.181                |
